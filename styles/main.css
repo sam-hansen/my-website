@@ -1,0 +1,11 @@
+* {
+  color: bisque;
+  background: black;
+  margin: auto;
+  padding: 0.5rem;
+}
+
+body > div#page {
+  color: aquamarine;
+  background: transparent;
+}

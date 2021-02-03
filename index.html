@@ -1,23 +1,55 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Sam Hansen</title>
-        <meta name="description" content="My personal website." />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" href="styles/reset.css" />
-        <link rel="stylesheet" href="styles/main.css" />
-    </head>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Sam Hansen</title>
+    <meta name="description" content="My personal website." />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/reset.css" />
+    <link rel="stylesheet" href="styles/main.css" />
+  </head>
 
-    <body>
-        <div id="page">
-          <form>
-            <label for="name" >Enter Username (upper and lowercase letters):</label>
-            <input id="name" type="text" name="name" required pattern="[A-Za-z]+">
-            <button>Submit</button>
-          </form>
-        </div>
-        <script src="index.js"></script>
-    </body>
+  <body>
+    <div id="page">
+      <form>
+        <label for="name">Enter Username (upper and lowercase letters):</label>
+        <input id="name" type="text" name="name" required pattern="[A-Za-z]+" />
+        <button>Submit</button>
+      </form>
+      <div class="select">
+        <span class="value">Cherry</span>
+        <ul class="optList hidden">
+          <li class="option">Cherry</li>
+          <li class="option">Lemon</li>
+          <li class="option">Banana</li>
+          <li class="option">Strawberry</li>
+          <li class="option">Apple</li>
+        </ul>
+      </div>
+
+      <div class="select active">
+        <span class="value">Cherry</span>
+        <ul class="optList">
+          <li class="option highlight">Cherry</li>
+          <li class="option">Lemon</li>
+          <li class="option">Banana</li>
+          <li class="option">Strawberry</li>
+          <li class="option">Apple</li>
+        </ul>
+      </div>
+
+      <div class="select active">
+        <span class="value">Cherry</span>
+        <ul class="optList">
+          <li class="option highlight">Cherry</li>
+          <li class="option">Lemon</li>
+          <li class="option">Banana</li>
+          <li class="option">Strawberry</li>
+          <li class="option">Apple</li>
+        </ul>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
 </html>

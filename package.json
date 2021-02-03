@@ -1,0 +1,10 @@
+{
+  "name": "website",
+  "version": "0.0.1",
+  "description": "My-Website",
+  "main": "index.js",
+  "repository": "https://github.com/sam-hansen/my-website.git",
+  "author": "Sam Hansen <sam.hans24@yahoo.com>",
+  "license": "MIT",
+  "private": false
+}
